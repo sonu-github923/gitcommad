@@ -1,0 +1,59 @@
+Git Tutorial --
+
+1. Starting project 
+
+
+2. Basic workflow 
+3. working with file 
+4. history and Aliases
+5. Ignoring unwanted file
+
+
+command --
+
+1. git init "project name"  -- init command to make project initialize as git project
+ 
+2. ls -  listing of content in current  directory
+
+3. git add . / git add - A  -- add file into staging area
+
+4. git add "file name " --  command to add file with file name into staging area
+
+5. git commit -m(message)  "message"   --  command for commit changes
+ 
+6. git commit -am(a- add , m- message)"message" --command to first add file to staging area &comnit
+
+7. git ls-files  -- Command to show files which hold by .git
+
+8. mkdir -p dir1/dir2/dir3/dir4  -- command for creating recursive directory
+
+9. git reset HEAD <file_name> / git restore staged <file_name> -- command for unstage file 
+
+10. git restore <file_name>  -- command for remove current changes
+
+11. git checkout -- <file_name> -(for one file) / git checkout -f -(for more than one file) 
+                                      To discard changes in working directory
+									  
+12. git config --global user.name sonu/ git config --global user.email sonu12@gmail.com --
+                                 to   add user name and email into git Repository
+								 
+13. git config --global user.name/user.email  -- to check user name and email
+
+14. git log -- to check log of commit
+
+15. git log -p -1/-2/-3  -- to check last count commit 
+
+16. git diff -- to show different between in file of woking directory to staged area file
+
+17. git diff -- staged  -- to show different between staging area and last commit
+
+18. git status -- to show current status of file
+
+19. git status -s -- to show current status in summarize way
+
+20. git branch -- to check how many branch
+
+21. git branch "branch_name"  -- to make new branch
+
+22. git checkout "branch_name"  -- to switch branch
+
